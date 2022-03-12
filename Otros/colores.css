@@ -1,0 +1,36 @@
+body {
+    height: 630px;
+    background : radial-gradient(circle at 32.68% 12.86%, #55ffda 0, #53e5ff 16.67%, #4ecdff 33.33%, #46a2f9 50%, #1288e9 66.67%, #0072dc 83.33%, #004ad3 100%);
+}
+
+#letra{
+    font-family: "Brush Script MT", cursive; 
+    font-size: 25px;
+    font-weight: 400; 
+    line-height: 20px;
+    color:rgb(255, 199, 162);
+}
+#colorFondo{
+    background-color:rgb(255, 199, 162);
+    color: black;
+}
+#colorFondo{
+    background-color:rgb(255, 199, 162);
+    color: black;
+    border-right:5px solid #0045a6;
+}
+#botonBonito {
+    border: 1px solid #000807;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    padding: 10px;
+    background-color: rgb(128, 128, 131);
+    border-bottom: 5px solid #0045a6;
+  border-radius: 12px;
+  box-shadow: 6px 6px 6px #999;
+}
+
+.ocultar{
+    display: none;
+    width: -400px;
+}

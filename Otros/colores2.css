@@ -1,0 +1,12 @@
+body {
+    background : radial-gradient(circle at 32.68% 12.86%, #55ffda 0, #53e5ff 16.67%, #4ecdff 33.33%, #46a2f9 50%, #1288e9 66.67%, #0072dc 83.33%, #004ad3 100%);
+}
+
+#letra{
+    font-family: "Brush Script MT", cursive; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 20px;
+    color:antiquewhite;
+}

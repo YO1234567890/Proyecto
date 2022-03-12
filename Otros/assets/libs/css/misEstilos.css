@@ -1,0 +1,149 @@
+.agregarFondo{
+    background-image: url(../../../documentation/img/fondo.PNG);
+    background-size: 60% 60%;
+}
+.btn-neon{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: rgb(0, 4, 255);
+    color: rgba(121, 255, 255, 0.925);
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    transition: 0.2s;
+    overflow: hidden;
+    border-radius: 20%;
+}
+
+.btn-neon:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #ffffff, 0 0 40px #ffffff, 0 0 80px #ffffff;
+    transition-delay: 1s;
+}
+
+.btn-neon span{
+    position: absolute;
+    display: block;
+}
+
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, transparent,#ffffff);
+    animation: mover1 2s;
+}
+
+@keyframes mover1 {
+    from {}
+    to {left: 100%;
+        transition: 1s;}
+}
+
+.btn-neon:hover #span1{
+    left: 100%;
+    transition: 1s;
+}
+
+#span2{
+    top: -100%;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#ffffff);
+    animation: mover2 2s;
+}
+
+@keyframes mover2 {
+   from {
+    }
+   to {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;}
+}
+.btn-neon:hover #span2{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+#span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(270deg, transparent,#ffffff);
+    animation: mover3 2s;
+}
+
+@keyframes mover3 {
+   from {}
+   to {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;}
+}
+
+.btn-neon:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+#span4{
+    bottom: -100%;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#ffffff);
+    animation: mover4 2s;
+}
+
+@keyframes mover4 {
+   from {}
+   to {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;}
+}
+
+.btn-neon:hover #span4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+.formaCirculo.circuloGrande {
+    padding: 10px 16px;
+}
+
+.formaCirculo{
+    height: 50%;
+    padding: 6px 0px;
+    border-radius: 200%;
+    border-color: #a945c7;
+    border-style:inset;
+    border-width: 10px;
+    
+}
+
+.centrado{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.textocentro{
+    margin-top: 9%;
+    scrollbar-color: rgba(0, 0, 0, .5) rgba(0, 0, 0, 0);
+}
+.vertical-scrollable> .textocentro {
+    position: absolute;
+    top: 8px;
+    padding-left: 40px;
+    bottom: 60px;
+    right: 13%;
+    overflow-y: scroll; 
+}
